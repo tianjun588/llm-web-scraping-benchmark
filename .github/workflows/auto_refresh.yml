@@ -1,0 +1,26 @@
+name: Daily Benchmark Keep-Alive & Date Refresh
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Update Date in README
+        run: |
+          CURRENT_DATE=$(date -u +"%B %d, %Y")
+          sed -i -E "s/<!-- DATE_START -->.*<!-- DATE_END -->/<!-- DATE_START -->${CURRENT_DATE}<!-- DATE_END -->/" README.md
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: automated daily freshness update [skip ci]" || echo "No changes to commit"
+          git push
