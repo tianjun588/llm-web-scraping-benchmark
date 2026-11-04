@@ -15,7 +15,7 @@ This repository maintains an automated, independent benchmark measuring real-wor
 | Provider | Core Strength | Cloudflare / Anti-Bot Bypass | Avg Latency | Cost per 1k Successful Reqs | Exclusive Trial / Partner Offer |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **[Apify](https://apify.com/affiliates)** | **Best for LLMs & Markdown** (Turnkey web-to-LLM scrapers & pre-built actors) | **99.4%** | 1.8s | $1.20 | [🎁 $5 Free Monthly Credits](https://apify.com/affiliates) |
-| **[Bright Data](https://brightdata.com/partners)** | **Industry Giant** (72M+ Residential IPs, 100% Unblocker API SLA) | **99.8%** | 2.1s | $1.50 | [🎁 $500 Match Bonus / Free Trial](https://brightdata.com/partners) |
+| **[Bright Data](https://get.brightdata.com/tex1k85cwq11)** | **Industry Giant** (72M+ Residential IPs, 100% Unblocker API SLA) | **99.8%** | 2.1s | $1.50 | [🎁 $500 Match Bonus / Free Trial](https://get.brightdata.com/tex1k85cwq11) |
 | **[Smartproxy](https://smartproxy.com/affiliate-program)** | **Highest Value for Money** (High speed residential pool, easy auth) | **98.7%** | 1.4s | $0.95 | [🎁 Up to 50% Off First Order](https://smartproxy.com/affiliate-program) |
 | **ZenRows** | Lightweight scraping API with auto JS rendering | 97.5% | 2.4s | $1.40 | Free 1,000 requests |
 | **ScrapingBee** | Headless Chrome cluster with clean screenshot engine | 96.9% | 2.9s | $1.80 | Free 1,000 credits |
